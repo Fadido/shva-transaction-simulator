@@ -197,4 +197,4 @@ dotnet test
 
 # Loom video
 
-Short walkthrough: _<paste your Loom URL here>_
+Short walkthrough: https://www.loom.com/share/75d50530be474c3c9f7f0bc2ff10a0a7

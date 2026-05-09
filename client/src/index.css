@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', 'Heebo', system-ui, sans-serif;
+    background: #ffffff;
+    color: theme('colors.brand.ink');
+  }
+  body {
+    @apply min-h-screen antialiased;
+  }
+  html[dir='rtl'] body {
+    font-family: 'Heebo', 'Inter', system-ui, sans-serif;
+  }
+  /* Hide native datetime icon to keep custom picker visual */
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-brand px-6 py-2.5
+           font-medium text-white shadow-card transition
+           hover:bg-brand-deep active:brightness-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center rounded-full border border-brand-line
+           bg-white px-4 py-2 text-sm font-medium text-brand-ink hover:bg-brand-softer/40;
+  }
+  .input {
+    @apply w-full rounded-lg border border-brand-line bg-white px-3 py-2.5 text-sm
+           text-brand-ink outline-none transition
+           focus:border-brand-purple focus:ring-2 focus:ring-brand-purple/20;
+  }
+  .card {
+    @apply rounded-2xl border border-brand-line bg-white p-5;
+  }
+  .pill {
+    @apply inline-flex h-[35px] w-auto max-w-full items-center justify-center
+           whitespace-nowrap rounded-[10px] border border-black/20 bg-[#F0F0F0]/40
+           px-3 py-1 text-center font-rubik text-[14px] font-bold text-[#363636]
+           sm:px-4 sm:text-[18px];
+    line-height: 1.5;
+  }
+}

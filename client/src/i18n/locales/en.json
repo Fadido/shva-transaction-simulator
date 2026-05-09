@@ -1,0 +1,54 @@
+{
+  "app": {
+    "badge": "TRANSACTION SIMULATOR",
+    "title": "Will this transaction be approved?"
+  },
+  "nav": {
+    "logout": "Log out"
+  },
+  "regions": {
+    "IL": "Israel",
+    "FR": "France",
+    "US": "United States",
+    "JP": "Japan"
+  },
+  "form": {
+    "regionLabel": "Region",
+    "regionPlaceholder": "Search…",
+    "noMatch": "No matches",
+    "enterTime": "Enter time",
+    "hour": "Hour",
+    "minute": "Minute",
+    "cancel": "Cancel",
+    "ok": "OK",
+    "useNow": "Use current time",
+    "submit": "Submit transaction",
+    "submitting": "Submitting…"
+  },
+  "result": {
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "approvedToast": "Transaction approved!",
+    "rejectedToast": "Transaction rejected - outside banking hours."
+  },
+  "list": {
+    "title": "Approved Transactions",
+    "empty": "No approved transactions yet. Submit one above to get started.",
+    "timeLabel": "Time",
+    "timeZoneLabel": "Time Zone"
+  },
+  "auth": {
+    "loginTitle": "Welcome back",
+    "signupTitle": "Create your account",
+    "email": "Email",
+    "password": "Password",
+    "login": "Log in",
+    "signup": "Sign up",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "loginCta": "Log in",
+    "signupCta": "Sign up",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "errorInvalid": "Invalid email or password."
+  }
+}

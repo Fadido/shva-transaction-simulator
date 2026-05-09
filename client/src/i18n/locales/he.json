@@ -1,0 +1,54 @@
+{
+  "app": {
+    "badge": "סימולטור עסקאות",
+    "title": "האם העסקה תאושר?"
+  },
+  "nav": {
+    "logout": "התנתקות"
+  },
+  "regions": {
+    "IL": "ישראל",
+    "FR": "צרפת",
+    "US": "ארצות הברית",
+    "JP": "יפן"
+  },
+  "form": {
+    "regionLabel": "אזור",
+    "regionPlaceholder": "חיפוש…",
+    "noMatch": "לא נמצאו תוצאות",
+    "enterTime": "הכניסו שעה",
+    "hour": "שעה",
+    "minute": "דקות",
+    "cancel": "ביטול",
+    "ok": "אישור",
+    "useNow": "השתמש בזמן הנוכחי",
+    "submit": "שליחת עסקה",
+    "submitting": "שולח…"
+  },
+  "result": {
+    "approved": "אושרה",
+    "rejected": "נדחתה",
+    "approvedToast": "העסקה אושרה!",
+    "rejectedToast": "העסקה נדחתה - מחוץ לשעות הפעילות."
+  },
+  "list": {
+    "title": "עסקאות מאושרות",
+    "empty": "עדיין אין עסקאות מאושרות. שלחו עסקה כדי להתחיל.",
+    "timeLabel": "שעה",
+    "timeZoneLabel": "אזור זמן"
+  },
+  "auth": {
+    "loginTitle": "ברוכים השבים",
+    "signupTitle": "יצירת חשבון",
+    "email": "אימייל",
+    "password": "סיסמה",
+    "login": "כניסה",
+    "signup": "הרשמה",
+    "noAccount": "אין לכם חשבון?",
+    "haveAccount": "כבר יש לכם חשבון?",
+    "loginCta": "כניסה",
+    "signupCta": "הרשמה",
+    "errorGeneric": "משהו השתבש. נסו שוב.",
+    "errorInvalid": "אימייל או סיסמה שגויים."
+  }
+}

@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Shva.Api/Shva.Api.csproj" />
+  <Project Path="Shva.Application.Tests/Shva.Application.Tests.csproj" />
+  <Project Path="Shva.Application/Shva.Application.csproj" />
+  <Project Path="Shva.Domain/Shva.Domain.csproj" />
+  <Project Path="Shva.Infrastructure/Shva.Infrastructure.csproj" />
+</Solution>
